@@ -1,0 +1,73 @@
+body {
+    overflow: hidden;
+    width: 100%;
+    background-color: #222222;
+}
+
+
+#container {
+    margin-top: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40vh;
+    height: 40vh;
+    position: relative;
+
+}
+
+
+
+#message {
+    color: white;
+    text-align: center;
+    height: 10vh;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+#reset {
+
+    width: 100%;
+    position: absolute;
+    top: 50vh;
+    text-align: center;
+}
+
+table {
+  
+    border: none;
+    width: 100%;
+    height: 40vh;
+}
+
+td {
+    border: 3px solid white;
+}
+
+tr:first-child td {
+    border-top: none !important;
+}
+tr:last-child td {
+    border-bottom: none !important;
+}
+
+tr td:first-child {
+    border-left: none !important;
+}
+tr td:last-child {
+    border-right: none !important;
+}
+
+input {
+    width: 36%;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    margin-bottom: 0px;
+}
+input:hover {
+    background-color: rgb(200, 200, 200);
+}
